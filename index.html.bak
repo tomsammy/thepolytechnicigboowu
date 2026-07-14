@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="TemplateMo">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+<!-- Title -->
+    <title>POLYTECHNIC IGBO-OWU</title>
+
+    <!-- Favicon -->
+<link rel="icon" href="assets/images/logo.png" type="image/x-icon">
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<!-- Icon -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-edu-meeting.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+  </head>
+
+<body style="    background-image: url(assets/images/meetings-page-bg.jpg);">
+
+  <!-- Sub Header -->
+  <div class="sub-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-sm-8">
+          <div class="left-content">
+
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-4">
+          <div class="right-icons">
+            <ul>
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                  <nav class="main-nav">
+                      <!-- ***** Logo Start ***** -->
+                      <a href="index.html" class="logo">
+                        <img src="assets/images/logo.png">
+                      </a>
+                      <!-- ***** Logo End ***** -->
+                      <!-- ***** Menu Start ***** -->
+                      <ul class="nav">
+                          <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+                                    <li class="scroll-to-section"><a href="#">About</a></li> 
+                          <li class="has-sub">
+                              <a href="javascript:void(0)">Course</a>
+                              <ul class="sub-menu">
+                                  <li><a href="#"></a></li>
+                                  <li><a href="#"></a></li>
+                              </ul>
+                          </li>
+                          <!-- <li class="scroll-to-section"><a href="#apply">Apply Now</a></li> -->
+                          <li class="has-sub">
+                              <a href="javascript:void(0)">Skill Development Center</a>
+                              <ul class="sub-menu">
+                                  <li><a href="#"></a></li>
+                                  <li><a href="#"></a></li>
+                              </ul>
+                          </li>
+               
+                          <li class="scroll-to-section"><a href="#">Contact Us</a></li> 
+                      </ul>        
+                      <a class='menu-trigger'>
+                          <span>Menu</span>
+                      </a>
+                      <!-- ***** Menu End ***** -->
+                  </nav>
+              </div>
+          </div>
+      </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <!-- ***** Main Banner Area Start ***** -->
+  <section class="section main-banner" id="top" data-section="section1">
+      <video autoplay muted loop id="bg-video">
+          <source src="assets/images/course-video.mp4" type="video/mp4" />
+      </video>
+
+      <div class="video-overlay header-text">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="caption">
+              <h6>Hello Students</h6>
+              <h2>Welcome to The Polytechnic Igbo-Owu. <br>The best Polytechnic!</h2>
+              <p>Discover Excellence in Education at the Heart of Ilorin City. Welcome to The Polytechnic Igbo Owu, where innovation meets education in the vibrant heart of Ilorin.</p>
+              <div style="display: flex; gap: 10px;">
+                  <div class="main-button-red">
+                      <div class="scroll-to-section"><a href="https://igboowupoly.edukate.ng/">Apply Now!</a></div>
+                  </div>
+                  <div class="main-button-red">
+                      <div class="scroll-to-section"><a href="#">Check 2026/2027 Admission List</a></div>
+                  </div>
+              </div>
+          </div>
+              </div>
+            </div>
+          </div>
+      </div>
+  </section>
+  <!-- ***** Main Banner Area End ***** -->
+
+  <section class="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="owl-service-item owl-carousel">
+          
+            <div class="item">
+              <div class="icon">
+            <i class="fas fa-graduation-cap" style="font-size:3rem;"></i>
+
+              </div>
+              <div class="down-content">
+                <h4>Quality Education</h4>
+                <p>Experience a dynamic learning environment with modern facilities and accredited programs, all focused on academic excellence at Polytechnic Igbo-Owu. Join us to unlock your potential.</p>
+              </div>
+            </div>
+            
+            <div class="item">
+              <div class="icon">
+           <i class="fas fa-chalkboard-teacher" style="font-size:3rem;"></i>
+
+              </div>
+              <div class="down-content">
+               <h4>Experienced Faculty</h4>
+                <p>Our faculty are accomplished professionals, bringing real-world expertise and industry insights to every class session, ensuring students receive practical, up-to-date education.</p>
+
+              </div>
+            </div>
+            
+            <div class="item">
+              <div class="icon">
+               <i class="fas fa-briefcase" style="font-size:3rem;"></i>
+
+              </div>
+              <div class="down-content">
+                 <h4>Professional Development</h4>
+                <p>Gain practical skills and hands-on experience to advance your career and succeed in real-world opportunities. Our programs are designed to equip you for success in today’s workforce.</p>
+
+              </div>
+            </div>
+            
+            <div class="item">
+              <div class="icon">
+  <i class="fas fa-building" style="font-size:3rem;"></i>
+              </div>
+              <div class="down-content">
+                <h4>Modern Facilities</h4>
+                <p>Benefit from modern labs, digital classrooms, and a resource-rich campus designed to support hands-on learning and student success at Polytechnic Igbo-Owu.</p>
+
+              </div>
+            </div>
+          
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><br><br>
+
+  
+  <section class="our-courses" id="courses">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-heading">
+            <h2>Our Popular Courses</h2>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="owl-courses-item owl-carousel">
+            <div class="item">
+             
+              <div class="down-content">
+                <h4><i class="fa-solid fa-microchip" style="color: red;"></i> &nbsp;&nbsp;&nbsp;&nbsp;Computer Engineering </h4>
+                <div class="info">
+                  <div class="row">
+                   
+                    <div class="col-6">
+                       <span>3 Courses </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              
+              <div class="down-content">
+                <h4><i class="fa-solid fa-laptop" style="color: red;"></i> &nbsp;&nbsp;&nbsp;&nbsp;Computer Science </h4>
+                <div class="info">
+                  <div class="row">
+                   
+                    <div class="col-6">
+                       <span>5 Courses</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+          
+              <div class="down-content">
+                <h4> <i class="fa-solid fa-tower-broadcast" style="color: red;"></i> &nbsp;&nbsp;&nbsp;&nbsp; Mass Communication </h4>
+                <div class="info">
+                  <div class="row">
+              
+                    <div class="col-6">
+                       <span>4 Courses</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+            
+              <div class="down-content">
+                <h4><i class="fa-solid fa-landmark" style="color: red;"></i> &nbsp;&nbsp;&nbsp;&nbsp;Public Administration</h4>
+                <div class="info">
+                  <div class="row">
+                  
+                    <div class="col-6">
+                       <span>3 Courses</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+            
+              <div class="down-content">
+                <h4><i class="fa-solid fa-chart-bar" style="color: red;"></i> &nbsp;&nbsp;&nbsp;&nbsp;Statistics </h4>
+                <div class="info">
+                  <div class="row">
+                  
+                    <div class="col-6">
+                       <span>1 Course</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              
+              <div class="down-content">
+                <h4><i class="fa-solid fa-flask" style="color: red;"></i> &nbsp;&nbsp;&nbsp;&nbsp;Science Laboratory Technology </h4>
+                <div class="info">
+                  <div class="row">
+                  
+                    <div class="col-6">
+                       <span>2 Courses</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+         
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="our-facts">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="row">
+            <div class="col-lg-12">
+              <h2>A Few Facts About Our University</h2>
+            </div>
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-12">
+                  <div class="count-area-content percentage">
+                    <div class="count-digit">380000</div>
+                    <div class="count-title">Students Worldwide</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="count-area-content percentage">
+                    <div class="count-digit">50000</div>
+                    <div class="count-title">Total Student Capacity </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-12">
+                  <div class="count-area-content new-students percentage">
+                    <div class="count-digit">18000</div>
+                    <div class="count-title">Five-star course reviews</div>
+                  </div>
+                </div> 
+                <div class="col-12">
+                  <div class="count-area-content percentage">
+                    <div class="count-digit">100000</div>
+                    <div class="count-title">Students Community</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+        <div class="col-lg-6 align-self-center">
+          <div class="video">
+            <a href="https://www.youtube.com/watch?v=HndV87XpkWg" target="_blank"><img src="assets/images/play-iccon.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="apply-now" id="apply">
+    <div class="container">
+       <div class="section-heading">
+            <h2 class="text-center">What People Say  <p class="text-light">Hear what our students are saying about us</p></h2>
+           
+          </div>
+      <div class="row">
+        <div class="col-lg-6 align-self-center">
+          <div class="row">
+            <div class="col-lg-">
+              <div class="item">
+                <h3>Excellence</h3>
+                <p>I am truly grateful for the invaluable experience I gained as a student at Polytechnic Igbo-Owu. The dedicatedfaculty at Polytechnic Igbo-Owu played a pivotal role inshaping my academic and professional growth.</p>
+                   <div class="main-button-yellow">
+        <div style="display: flex;"><img src="assets/images/avatar 1.png" alt="" class="rounded-circle" style="width: 50px; height: 50px;"><h2 style="color: white; margin-left: 9px; font-size: 20px;">John Abidemi <p style="margin-left: 9px;">Student</p></h2></div>
+              </div>
+              </div>
+            </div>
+            <div class="col-lg-">
+              <div class="item">
+                <h3>Rounded Education</h3>
+                <p>I would highly recommend Polytechnic Igbo-Owu to anyone seeking a well-rounded education that goes beyond textbooks. My years at this esteemed institution have undoubtedly laid the foundation for a successful future, and I am proud to be an alum of Polytechnic Igbo-Owu.</p>
+                  <div class="main-button-yellow">
+        <div style="display: flex;"><img src="assets/images/avatar 2.png" alt="" class="rounded-circle" style="width: 50px; height: 50px;"><h2 style="color: white; margin-left: 9px; font-size: 20px;">Matthew Issa<p style="margin-left: 9px;">Student</p></h2></div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+         <div class="col-lg-6">
+              <div class="item">
+                <h3>Great</h3>
+                <p>The sense of community and camaraderie among students made my time at Polytechnic Igbo-Owu truly memorable. The diverse student body and supportive atmosphere created a conducive space for collaboration and friendship.</p>
+                <div class="main-button-yellow">
+        <div style="display: flex;"><img src="assets/images/avatar 3.png" alt="" class="rounded-circle" style="width: 50px; height: 50px;"><h2 style="color: white; margin-left: 9px; font-size: 20px;">Deborah Ebenezer <p style="margin-left: 9px;">Student</p></h2></div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+ 
+   <section class="context">
+    <!-- Text Section -->
+    <div class="text-block">
+      <h1><span>Learn</span> from one of the best<br>polytechnic in the South West</h1>
+      <p>Use the list below to bring attention to your product’s key differentiator.</p>
+      <ul class="feat">
+        <li><i class="fa-solid fa-circle-check"></i> Hand-Picked Authors</li>
+        <li><i class="fa-solid fa-circle-check"></i> Easy To Follow Curriculum</li>
+        <li><i class="fa-solid fa-circle-check"></i> Free Courses</li>
+        <li><i class="fa-solid fa-circle-check"></i> Money-Back Guarantee</li>
+      </ul>
+
+    </div>
+
+    <!-- Image Section -->
+    <div class="images-block">
+      <img src="assets/images/Igno-owu.jpg" alt="Polytechnic Building">
+            <a href="#" class="applys-btn">Apply Now</a>
+    </div>
+  </section>
+
+
+
+
+<section class="apply-now" id="apply">
+    <div class="container">
+       <div class="section-heading">
+            <h2 class="text-center">Why Learn Our Course<p class="text-light">Reason why our polytechnic is sort after</p></h2>
+           
+          </div>
+      <div class="row">
+        <div class="col-lg-6 align-self-center">
+          <div class="row">
+            <div class="col-lg-">
+              <div class="item">
+                <h3><i class="fa-solid fa-book-open-reader"></i></h3>
+                   <div class="main-button-yellow">
+        <div class="d-flex justify-content-center"><h2 style="color: white; font-size: 20px; font-weight: 900;">01. &nbsp; Learn <p style="margin-left: 9px; font-weight: 500;">We Teach</p></h2></div>
+              </div>
+              </div>
+            </div>
+            <div class="col-lg-">
+              <div class="item">
+                <h3><i class="fa-solid fa-graduation-cap"></i></h3>
+               
+                  <div class="main-button-yellow">
+        <div class="d-flex justify-content-center"><h2 style="color: white; font-size: 20px; font-weight: 900;">02. &nbsp; Work <p style="margin-left: 9px; font-weight: 500;">You Succeed</p></h2></div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+         <div class="col-lg-6">
+              <div class="item">
+                <h3><i class="fa-solid fa-briefcase"></i></h3>
+                <div class="main-button-yellow">
+       <div class="d-flex justify-content-center"><h2 style="color: white; font-size: 20px; font-weight: 900;">03. &nbsp; Graduate <p style="margin-left: 9px; font-weight: 500;">You Graduate</p></h2></div>
+              </div>
+              </div>
+            </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="our-courses" id="courses">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+        </div>
+        <div class="col-lg-12">
+          <div class="owl-courses-item owl-carousel">
+            <div class="item">
+             
+              <div class="down-content">
+                <h4><img src="assets/images/Polytechnic/pic 1.jpg" alt="" height="200px"> </h4>
+           
+              </div>
+            </div>
+            <div class="item">
+              
+              <div class="down-content">
+                <h4><img src="assets/images/Polytechnic/pic 2.png" alt="" height="200px"></h4>
+          
+              </div>
+            </div>
+            <div class="item">
+          
+              <div class="down-content">
+                <h4><img src="assets/images/Polytechnic/pic 3.png" alt="" height="200px"> </h4>
+               
+              </div>
+            </div>
+            <div class="item">
+            
+              <div class="down-content">
+                <h4><img src="assets/images/Polytechnic/pic 4.png" alt="" height="200px"></h4>
+               
+              </div>
+            </div>
+            <div class="item">
+            
+              <div class="down-content">
+                <h4><img src="assets/images/Polytechnic/pic 5.jpg" alt="" height="200px"> </h4>
+               
+              </div>
+            </div>
+            <div class="item">
+              <div class="down-content">
+                <h4><img src="assets/images/Polytechnic/pic 6.jpg" alt="" height="200px"></h4>
+              </div>
+            </div>
+             <div class="item">
+              
+              <div class="down-content">
+                <h4><img src="assets/images/Polytechnic/pic 7.jpg" alt="" height="200px"></h4>
+              </div>
+            </div>
+             <div class="item">
+              
+              <div class="down-content">
+                <h4><img src="assets/images/Polytechnic/pic 8.jpg" alt="" height="200px"></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- News -->
+<section class="py-5">
+  <div class="container">
+    <div class="row align-items-center justify-content-between">
+      <!-- Left Column: Heading & Description -->
+      <div class="col-md-8">
+        <h2 class="fw-bold text-light" style="font-weight: 700;">Resources & News</h2>
+        <!-- <p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur.</p> -->
+      </div>
+
+      <!-- Right Column: Button -->
+      <div class="col-md-auto mt-3 mt-md-0">
+        <a href="#" class="btn btn-light text-primary px-4 py-2" style="background-color: #f4f0ff;">
+          Browse Blog
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="contexts">
+        <header class="news">
+            <div class="news-content">
+                <h1>Resources & News</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur.</p>
+            </div>
+            <div class="news-action">
+                <a href="#" class="browse-button">Browse Blog</a>
+            </div>
+        </header>
+
+        <div class="news-grid">
+            <div class="news-left">
+                <div class="news-card large">
+                    <img src="assets/images/Polytechnic/pic 4.png" alt="Graduation ceremony" class="card-image">
+                    <div class="card-content">
+                           <span class="category gym">GYM</span>
+                    <a href="https://igboowupoly.edukate.ng/"></a>
+                        <h2 class="card-title">Transforming Polytechnic Igbo Owu into the Pinnacle of Education in Kwara State</h2>
+                        <p class="card-date">July 28, 2026</p>
+                    </div>
+                </div>
+
+                <div class="news-card large">
+                    <img src="assets/images/Polytechnic/pic 1.jpg" alt="School building" class="card-image">
+                    <div class="card-content">
+                        <span class="category gym">GYM</span>
+                                  <a href="https://igboowupoly.edukate.ng/"></a>
+                      <h2 class="card-title">Polytechnic Igbo Owu: A Blueprint for Excellence in Kwara State's Educational Landscape</h2>
+                        <p class="card-date">July 28, 2026</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="news-right">
+                <div class="news-card small">
+                    <img src="assets/images/Polytechnic/pic 4.png" alt="Students in graduation gowns" class="card-image">
+                    <div class="card-content">
+                        <span class="category school">SCHOOL</span>
+                        <h2 class="card-title">Polytechnic Igbo Owu: A Vision for Holistic Education and...</h2>
+                        <p class="card-date">July 28, 2026</p>
+                    </div>
+                </div>
+
+                <div class="news-card small">
+                    <img src="assets/images/Polytechnic/pic 4.png" alt="Graduate in academic regalia" class="card-image">
+                    <div class="card-content">
+                        <span class="category high-school">HIGH SCHOOL</span>
+                        <h2 class="card-title">Polytechnic Igbo Owu: Nurturing Innovation and Empowering the...</h2>
+                        <p class="card-date">July 28, 2026</p>
+                    </div>
+                </div>
+
+                <div class="news-card small">
+                    <img src="assets/images/Polytechnic/pic 4.png" alt="Graduate with certificate" class="card-image">
+                    <div class="card-content">
+                        <span class="category college">COLLEGE</span>
+                        <h2 class="card-title">Polytechnic Igbo Owu: A Paradigm Shift towards Inclusiv...</h2>
+                        <p class="card-date">July 28, 2026</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+  <section class="contact-us" id="contact">
+    
+<footer class="footer">
+
+<div class="row">
+<div class=" col-sm-4 col-md col-sm-4  col-12 col">
+<!-- <h5 class="headin5_amrc col_white_amrc pt2">Find us</h5>
+
+<p class="mb10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+<p><i class="fa fa-location-arrow"></i> 9878/25 sec 9 rohini 35 </p>
+<p><i class="fa fa-phone"></i>  +91-9999878398  </p>
+<p><i class="fa fa fa-envelope"></i> info@example.com  </p>
+
+
+</div>
+
+
+<div class=" col-sm-4 col-md  col-6 col">
+<h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+
+<ul class="footer_ul_amrc">
+<li><a href="#">Image Rectoucing</a></li>
+<li><a href="#">Clipping Path</a></li>
+<li><a href="#">Hollow Man Montage</a></li>
+<li><a href="#">Ebay & Amazon</a></li>
+<li><a href="#">Hair Masking/Clipping</a></li>
+<li><a href="#">Image Cropping</a></li>
+</ul>
+
+</div>
+
+
+<div class=" col-sm-4 col-md  col-6 col">
+<h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+
+<ul class="footer_ul_amrc">
+<li><a href="#">Remove Background</a></li>
+<li><a href="#">Shadows & Mirror Reflection</a></li>
+<li><a href="#">Logo Design</a></li>
+<li><a href="#">Vectorization</a></li>
+<li><a href="#">Hair Masking/Clipping</a></li>
+<li><a href="#">Image Cropping</a></li>
+</ul>
+
+</div> -->
+
+<!-- 
+<div class=" col-sm-4 col-md  col-12 col">
+<h5 class="headin5_amrc col_white_amrc pt2">Follow us</h5>
+
+
+<ul class="footer_ul2_amrc">
+<li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li>
+<li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li>
+<li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li>
+</ul>
+
+</div>
+</div>
+</div> -->
+
+
+<div class="container">
+  
+<ul class="foote_bottom_ul_amrc" style="margin-top: 8rem;">
+<li><a href="#">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Course</a></li>
+<li><a href="#">Skill Development Center</a></li>
+<li><a href="#">Contact Us</a></li>
+</ul>
+
+
+<ul class="social_footer_ul">
+<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+</ul>
+<!--social_footer_ul ends here-->
+</div>
+
+</footer>
+
+
+  </section>
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/tabs.js"></script>
+    <script src="assets/js/video.js"></script>
+    <script src="assets/js/slick-slider.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+        //according to loftblog tut
+        $('.nav li:first').addClass('active');
+
+        var showSection = function showSection(section, isAnimate) {
+          var
+          direction = section.replace(/#/, ''),
+          reqSection = $('.section').filter('[data-section="' + direction + '"]'),
+          reqSectionPos = reqSection.offset().top - 0;
+
+          if (isAnimate) {
+            $('body, html').animate({
+              scrollTop: reqSectionPos },
+            800);
+          } else {
+            $('body, html').scrollTop(reqSectionPos);
+          }
+
+        };
+
+        var checkSection = function checkSection() {
+          $('.section').each(function () {
+            var
+            $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+            if (topEdge < wScroll && bottomEdge > wScroll) {
+              var
+              currentId = $this.data('section'),
+              reqLink = $('a').filter('[href*=\\#' + currentId + ']');
+              reqLink.closest('li').addClass('active').
+              siblings().removeClass('active');
+            }
+          });
+        };
+
+        $('.main-menu, .responsive-menu, .scroll-to-section').on('click', 'a', function (e) {
+          e.preventDefault();
+          showSection($(this).attr('href'), true);
+        });
+
+        $(window).scroll(function () {
+          checkSection();
+        });
+    </script>
+</body>
+
+</body>
+</html>
