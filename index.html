@@ -17,6 +17,29 @@
   
   <!-- Custom Redesign CSS -->
   <link rel="stylesheet" href="assets/css/redesign.css">
+
+  <!-- Phase 1: GA4 Analytics & Conversion Tracking Script -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MEASUREMENT_ID"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-MEASUREMENT_ID');
+  </script>
+
+  <!-- Phase 1: Meta Pixel Script -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', 'META_PIXEL_ID');
+    fbq('track', 'PageView');
+  </script>
 </head>
 <body>
 
@@ -123,6 +146,7 @@
             </div>
             <div class="hero-buttons">
               <a href="https://igboowupoly.edukate.ng/" class="btn btn-primary">Apply for 2026/2027 Admission</a>
+              <a href="#enquiryModalOverlay" class="btn btn-secondary open-enquiry-modal"><i class="fas fa-paper-plane"></i> Quick Enquiry</a>
             </div>
           </div>
         </div>
@@ -1066,6 +1090,72 @@
     <i class="fab fa-whatsapp"></i>
     <span>Admissions Chat</span>
   </a>
+
+  <!-- Quick Admissions Enquiry Modal (Phase 1 Lead Intake) -->
+  <div class="enquiry-modal-overlay" id="enquiryModalOverlay">
+    <div class="enquiry-modal">
+      <button class="enquiry-modal-close" id="enquiryModalClose" aria-label="Close Modal">&times;</button>
+      <div class="enquiry-modal-header">
+        <span class="enquiry-modal-tag">Quick Admissions Enquiry</span>
+        <h3 class="enquiry-modal-title">Get Admitted into Igbo-Owu</h3>
+        <p class="enquiry-modal-subtitle">Fill in your details below to speak directly with an admissions officer on WhatsApp.</p>
+      </div>
+      <form class="enquiry-form" id="quickEnquiryForm">
+        <div class="form-group">
+          <label for="enquiryName">Full Name *</label>
+          <input type="text" id="enquiryName" class="form-control" placeholder="e.g. Samuel Adebayo" required>
+        </div>
+        <div class="form-group">
+          <label for="enquiryPhone">Phone / WhatsApp Number *</label>
+          <input type="tel" id="enquiryPhone" class="form-control" placeholder="e.g. 08012345678" required>
+        </div>
+        <div class="form-group">
+          <label for="enquiryCourse">Course of Interest *</label>
+          <select id="enquiryCourse" class="form-control" required>
+            <option value="" disabled selected>Select Course...</option>
+            <option value="Computer Engineering">Computer Engineering</option>
+            <option value="Computer Science">Computer Science</option>
+            <option value="Electrical & Electronic Eng.">Electrical & Electronic Eng.</option>
+            <option value="Statistics">Statistics</option>
+            <option value="Science Laboratory Tech.">Science Laboratory Tech.</option>
+            <option value="Community Health Technology">Community Health Technology</option>
+            <option value="Public Health Technology">Public Health Technology</option>
+            <option value="Environmental Health Tech.">Environmental Health Tech.</option>
+            <option value="Health Information Management">Health Information Management</option>
+            <option value="Pharmacy Technician">Pharmacy Technician</option>
+            <option value="Medical Laboratory Technology">Medical Laboratory Technology</option>
+            <option value="Accountancy">Accountancy</option>
+            <option value="Business Administration">Business Administration</option>
+            <option value="Public Administration">Public Administration</option>
+            <option value="Office Tech. & Management">Office Tech. & Management</option>
+            <option value="Mass Communication">Mass Communication</option>
+            <option value="Library & Info Science">Library & Info Science</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="enquiryMode">Preferred Mode of Study *</label>
+          <select id="enquiryMode" class="form-control" required>
+            <option value="Full-Time (On-Campus)">Full-Time (On-Campus)</option>
+            <option value="Part-Time (Weekend/Evening)">Part-Time (Weekend/Evening)</option>
+            <option value="Online (Distance Learning)">Online (Distance Learning)</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="enquiryState">State of Residence *</label>
+          <select id="enquiryState" class="form-control" required>
+            <option value="Kwara">Kwara State</option>
+            <option value="Oyo">Oyo State</option>
+            <option value="Lagos">Lagos State</option>
+            <option value="Abuja (FCT)">Abuja (FCT)</option>
+            <option value="Other State">Other State</option>
+          </select>
+        </div>
+        <button type="submit" class="btn-submit-enquiry">
+          <i class="fab fa-whatsapp"></i> Chat with Admissions Team
+        </button>
+      </form>
+    </div>
+  </div>
 
   <!-- Custom Redesign Script -->
   <script type="module" src="assets/js/redesign.js"></script>

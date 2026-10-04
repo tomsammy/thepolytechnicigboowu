@@ -59,28 +59,131 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       });
     }, {
-      threshold: 0.15, // trigger when 15% of element is visible
+      threshold: 0.15,
       rootMargin: '0px 0px -50px 0px'
     });
     
     revealElements.forEach(el => revealObserver.observe(el));
   } else {
-    // Fallback if IntersectionObserver is not supported
     revealElements.forEach(el => el.classList.add('active'));
   }
 
-  // 5. Hero Image Slider (Carousel)
-  const slides = document.querySelectorAll('.hero-slide');
-  if (slides.length > 0) {
-    let currentSlide = 0;
+  // --- PHASE 1 ADMISSIONS GROWTH TRACKING & LEAD INTAKE ---
+
+  // Event Helper Dispatcher (GA4 + Meta Pixel)
+  const trackConversionEvent = (eventName, params = {}) => {
+    console.log(`[Event Tracked: ${eventName}]`, params);
     
-    const nextSlide = () => {
-      slides[currentSlide].classList.remove('active');
-      currentSlide = (currentSlide + 1) % slides.length;
-      slides[currentSlide].classList.add('active');
-    };
+    // GA4 Dispatcher
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', eventName, params);
+    }
     
-    // Change slide every 5 seconds
-    setInterval(nextSlide, 5000);
+    // Meta Pixel Dispatcher
+    if (typeof window.fbq === 'function') {
+      if (eventName === 'generate_lead') {
+        window.fbq('track', 'Lead', params);
+      } else if (eventName === 'begin_checkout') {
+        window.fbq('track', 'InitiateCheckout', params);
+      } else if (eventName === 'contact') {
+        window.fbq('track', 'Contact', params);
+      } else {
+        window.fbq('trackCustom', eventName, params);
+      }
+    }
+  };
+
+  // Track WhatsApp Clicks
+  document.querySelectorAll('a[href*="wa.me"]').forEach(link => {
+    link.addEventListener('click', () => {
+      trackConversionEvent('generate_lead', {
+        method: 'whatsapp',
+        destination: link.getAttribute('href')
+      });
+    });
+  });
+
+  // Track Direct Phone Call Clicks
+  document.querySelectorAll('a[href*="tel:"]').forEach(link => {
+    link.addEventListener('click', () => {
+      trackConversionEvent('contact', {
+        method: 'phone_call',
+        phone: link.getAttribute('href')
+      });
+    });
+  });
+
+  // Track Online Form Apply Clicks
+  document.querySelectorAll('a[href*="edukate.ng"]').forEach(link => {
+    link.addEventListener('click', () => {
+      trackConversionEvent('begin_checkout', {
+        method: 'edukate_portal',
+        url: link.getAttribute('href')
+      });
+    });
+  });
+
+  // Quick Enquiry Modal Handler
+  const modalOverlay = document.getElementById('enquiryModalOverlay');
+  const modalCloseBtn = document.getElementById('enquiryModalClose');
+  const enquiryForm = document.getElementById('quickEnquiryForm');
+  
+  // Open Modal Triggers
+  document.querySelectorAll('.open-enquiry-modal').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      if (modalOverlay) {
+        modalOverlay.classList.add('active');
+        trackConversionEvent('open_enquiry_form');
+      }
+    });
+  });
+
+  // Close Modal Handler
+  if (modalCloseBtn && modalOverlay) {
+    modalCloseBtn.addEventListener('click', () => {
+      modalOverlay.classList.remove('active');
+    });
+
+    modalOverlay.addEventListener('click', (e) => {
+      if (e.target === modalOverlay) {
+        modalOverlay.classList.remove('active');
+      }
+    });
+  }
+
+  // Submit Enquiry Form -> Track Event + Redirect to Pre-filled WhatsApp
+  if (enquiryForm) {
+    enquiryForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      
+      const name = document.getElementById('enquiryName').value.trim();
+      const phone = document.getElementById('enquiryPhone').value.trim();
+      const course = document.getElementById('enquiryCourse').value;
+      const mode = document.getElementById('enquiryMode').value;
+      const state = document.getElementById('enquiryState').value;
+
+      trackConversionEvent('generate_lead', {
+        lead_name: name,
+        lead_phone: phone,
+        course_interest: course,
+        study_mode: mode,
+        applicant_state: state
+      });
+
+      // Construct Pre-filled WhatsApp Message
+      const whatsappMsg = `Hello Admissions Team! My name is ${name} (${phone}) from ${state} State. I am interested in enrolling for ${course} (${mode}) at The Polytechnic Igbo-Owu. Please guide me on admissions procedures.`;
+      const encodedMsg = encodeURIComponent(whatsappMsg);
+      const whatsappUrl = `https://wa.me/2348035257332?text=${encodedMsg}`;
+
+      // Open WhatsApp
+      window.open(whatsappUrl, '_blank');
+
+      // Close Modal & Reset Form
+      if (modalOverlay) {
+        modalOverlay.classList.remove('active');
+      }
+      enquiryForm.reset();
+    });
   }
 });
